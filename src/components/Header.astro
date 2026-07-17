@@ -27,7 +27,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               href="#projects"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Projects
+              What I'm Working On
             </a>
           </li>
         )
@@ -39,7 +39,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               href="#experience"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Experience
+              Interests
             </a>
           </li>
         )
@@ -51,7 +51,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
               href="#education"
               class="text-gray-700 hover:text-black transition-colors font-medium"
             >
-              Education
+              Activities
             </a>
           </li>
         )
@@ -64,9 +64,9 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
   window.addEventListener("scroll", () => {
     const header = document.getElementById("header");
     if (window.scrollY > 100) {
-      header?.classList.add("bg-white/80", "backdrop-blur-sm");
+      header?.classList.add("bg-[#fff6ea]/80", "backdrop-blur-sm");
     } else {
-      header?.classList.remove("bg-white/80", "backdrop-blur-sm");
+      header?.classList.remove("bg-[#fff6ea]/80", "backdrop-blur-sm");
     }
   });
 </script>

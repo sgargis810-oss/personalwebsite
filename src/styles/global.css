@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
 body {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "Raleway", sans-serif;
+  background-color: #fff6ea;
+}
+
+.font-display {
+  font-family: "Indie Flower", cursive;
 }
